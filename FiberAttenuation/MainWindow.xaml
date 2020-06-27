@@ -1,0 +1,14 @@
+﻿<Window x:Name="MainWIndow" x:Class="FiberAttenuation.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:FiberAttenuation"
+        mc:Ignorable="d"
+        Title="Wavelength (nm)" Height="126.268" Width="570.299">
+    <Grid>
+        <TextBox x:Name="commandTextBox" HorizontalAlignment="Left" Height="23" Margin="103,36,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="373" KeyUp="CommandTextBox_KeyUp" TextChanged="CommandTextBox_TextChanged"/>
+        <Label x:Name="commandLabel" Content="Commands: " HorizontalAlignment="Left" Margin="30,36,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
